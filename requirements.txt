@@ -1,0 +1,6 @@
+hg+https://bitbucket.org/jaraco/httplib2#egg=httplib2
+wtalchemy
+flask-dashed
+flask-sqlalchemy
+psycopg2
+flask-oauth

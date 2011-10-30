@@ -1,0 +1,11 @@
+Application:
+
+    heroku create --stack cedar
+    heroku addons:add shared-database
+    git push heroku master
+    heroku config:add APP_SECRET='YOURAPPLICATIONSECRET'
+
+Github oauth API:
+
+    heroku config:add GITHUB_KEY='YOURGITHUBAPPKEY'
+    heroku config:add GITHUB_SECRET='YOURGITHUBSECRET'

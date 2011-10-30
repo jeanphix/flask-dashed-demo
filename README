@@ -7,7 +7,7 @@ Application:
     git push heroku master
     heroku config:add APP_SECRET='YOURAPPLICATIONSECRET'
 
-Github oauth API:
+Github oauth API (Optional):
 
     heroku config:add GITHUB_KEY='YOURGITHUBAPPKEY'
     heroku config:add GITHUB_SECRET='YOURGITHUBSECRET'

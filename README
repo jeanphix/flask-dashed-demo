@@ -1,3 +1,5 @@
+Online demo: http://flask-dashed.jeanphi.fr/
+
 Application:
 
     heroku create --stack cedar

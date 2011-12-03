@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import os
-import odict
 import wtforms
+
+from werkzeug import OrderedMultiDict
 
 from flask import Flask, redirect, url_for, request, flash, session
 from flask_dashed.admin import Admin
@@ -87,7 +88,7 @@ class UserModule(ModelAdminModule):
     db_session = db_session
     profile_alias = aliased(Profile)
 
-    list_fields = odict.odict((
+    list_fields = OrderedMultiDict(((
         ('id', {'label': 'id', 'column': User.id}),
         ('username', {'label': 'username', 'column': User.username}),
         ('profile.name', {'label': 'name', 'column': profile_alias.name}),

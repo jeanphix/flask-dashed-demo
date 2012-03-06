@@ -88,7 +88,7 @@ class UserModule(ModelAdminModule):
     db_session = db_session
     profile_alias = aliased(Profile)
 
-    list_fields = OrderedMultiDict(((
+    list_fields = OrderedMultiDict((
         ('id', {'label': 'id', 'column': User.id}),
         ('username', {'label': 'username', 'column': User.username}),
         ('profile.name', {'label': 'name', 'column': profile_alias.name}),

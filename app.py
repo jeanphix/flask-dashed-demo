@@ -126,7 +126,7 @@ class CompanyModule(ModelAdminModule):
     form_class = model_form(Company, db_session, only=['name'])
 
 
-admin = Admin(app, title="my business administration")
+admin = Admin(app, title="my business")
 security = admin.register_node('/security', 'security', 'security management')
 user_module = admin.register_module(UserModule, '/users', 'users',
     'users', parent=security)

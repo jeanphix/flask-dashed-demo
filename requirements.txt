@@ -1,6 +1,6 @@
 hg+https://bitbucket.org/jaraco/httplib2#egg=httplib2
-hg+https://bitbucket.org/simplecodes/wtforms@1.0.2#egg=wtforms
-git+git://github.com/jeanphix/Flask-Dashed.git@0.1#egg=flask-dashed
+-U hg+https://bitbucket.org/simplecodes/wtforms#egg=wtforms
+-U git+git://github.com/jeanphix/Flask-Dashed.git#egg=flask-dashed
 flask-sqlalchemy
 psycopg2
 flask-oauth

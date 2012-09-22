@@ -7,8 +7,8 @@ from werkzeug import OrderedMultiDict
 from flask import Flask, redirect, url_for, request, flash, session
 from flask_dashed.admin import Admin
 from flask_dashed.ext.sqlalchemy import ModelAdminModule, model_form
-from flaskext.sqlalchemy import SQLAlchemy
-from flaskext import oauth
+from flask.ext.sqlalchemy import SQLAlchemy
+from flask.ext import oauth
 from sqlalchemy.orm import aliased, contains_eager
 
 

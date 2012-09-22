@@ -1,5 +1,4 @@
 hg+https://bitbucket.org/jaraco/httplib2#egg=httplib2
-hg+https://bitbucket.org/simplecodes/wtforms#egg=wtforms==1.0.2
 flask-wtf==0.5.4
 git+git://github.com/jeanphix/Flask-Dashed.git#egg=flask-dashed==0.1.0
 flask-sqlalchemy

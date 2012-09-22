@@ -1,3 +1,4 @@
 *.pyc
 test.db
 github.txt
+.env
